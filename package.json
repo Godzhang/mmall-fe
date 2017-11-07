@@ -1,0 +1,22 @@
+{
+  "name": "mmall-fe",
+  "version": "1.0.0",
+  "description": "happymmall\r zhangqi\r enbsddaa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Godzhang/mmall-fe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Godzhang/mmall-fe/issues"
+  },
+  "homepage": "https://github.com/Godzhang/mmall-fe#readme",
+  "devDependencies": {
+    "webpack": "^1.15.0"
+  }
+}
