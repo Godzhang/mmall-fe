@@ -1,0 +1,15 @@
+/*
+* @Author: admin
+* @Date:   2017-11-09 22:34:56
+* @Last Modified by:   admin
+* @Last Modified time: 2017-11-09 22:49:32
+*/
+.nav-simple{
+    height: 60px;line-height: 60px;    
+    border: 1px solid #ddd;
+    background: #fff;
+}
+.nav-simple .logo{
+    font-size: 26px;font-weight: bold;
+    color: #c60023;
+}

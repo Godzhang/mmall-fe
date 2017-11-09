@@ -1,8 +1,8 @@
 /*
 * @Author: admin
 * @Date:   2017-11-07 21:14:31
- * @Last Modified by: zhangqi
- * @Last Modified time: 2017-11-09 10:48:11
+ * @Last Modified by:   admin
+ * @Last Modified time: 2017-11-09 21:40:28
 */
 var webpack = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
@@ -45,6 +45,7 @@ var config = {
     },
     resolve: {
         alias: {
+            node_modules: __dirname + '/node_modules',
             util: __dirname + '/src/util',
             page: __dirname + '/src/page',
             service: __dirname + '/src/service',
