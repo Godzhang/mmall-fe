@@ -1,8 +1,8 @@
 /*
  * @Author: zhangqi 
  * @Date: 2017-11-09 10:07:32 
- * @Last Modified by:   admin
- * @Last Modified time: 2017-11-09 21:31:50
+ * @Last Modified by:   p
+ * @Last Modified time: 2017-11-10 15:26:40
  */
  'use strict'
 
@@ -48,7 +48,7 @@ var _mm = {
     getUrlParam: function(name){
         var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)');
         var result = window.location.search.substr(1).match(reg);
-        return result ? decodeURIComponent(result[2]) : null;   
+        return result ? decodeURIComponent(result[2]) : null;
     },
     //渲染html模板
     renderHtml: function(htmlTemplate, data){
@@ -81,8 +81,8 @@ var _mm = {
         }
     },
     //统一登录处理
-    doLoginIn: function(){
-        window.location.href = './login.html?redirest=' + encodeURIComponent(window.location.href);
+    doLogin: function(){
+        window.location.href = './login.html?redirect=' + encodeURIComponent(window.location.href);
     },
     //返回主页
     goHome: function(){

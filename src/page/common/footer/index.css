@@ -1,0 +1,21 @@
+/*
+* @Author: p
+* @Date:   2017-11-10 12:30:23
+* @Last Modified by:   p
+* @Last Modified time: 2017-11-10 12:34:11
+*/
+
+.footer{
+	padding-bottom: 10px;
+}
+.footer .links, .footer .copyright{
+	text-align: center;
+	color: #666;
+	line-height: 30px;
+}
+.footer .links .link{
+	padding: 0 10px;
+}
+
+
+
