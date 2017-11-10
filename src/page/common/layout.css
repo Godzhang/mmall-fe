@@ -1,8 +1,8 @@
 /*
  * @Author: zhangqi 
  * @Date: 2017-11-09 18:30:59 
- * @Last Modified by:   admin
- * @Last Modified time: 2017-11-09 22:49:06
+ * @Last Modified by:   p
+ * @Last Modified time: 2017-11-10 16:32:41
  */
 
 /* css reset */
@@ -17,8 +17,10 @@ label, input[type="checkbox"]{cursor: pointer;}
 a{text-decoration: none;}
 /* 定宽布局 */
 .w{
+    position: relative;
     width: 1080px;
     margin: 0 auto;
+    overflow: hidden;
 }
 /*全局通用样式*/
 /*隐藏类*/
