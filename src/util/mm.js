@@ -1,8 +1,8 @@
 /*
  * @Author: zhangqi 
  * @Date: 2017-11-09 10:07:32 
- * @Last Modified by:   p
- * @Last Modified time: 2017-11-10 15:26:40
+ * @Last Modified by:   admin
+ * @Last Modified time: 2017-11-12 16:02:27
  */
  'use strict'
 
@@ -82,7 +82,7 @@ var _mm = {
     },
     //统一登录处理
     doLogin: function(){
-        window.location.href = './login.html?redirect=' + encodeURIComponent(window.location.href);
+        window.location.href = './user-login.html?redirect=' + encodeURIComponent(window.location.href);
     },
     //返回主页
     goHome: function(){
