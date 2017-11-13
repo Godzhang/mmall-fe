@@ -1,8 +1,8 @@
 /*
 * @Author: admin
 * @Date:   2017-11-09 23:28:29
-* @Last Modified by:   p
-* @Last Modified time: 2017-11-10 12:25:35
+* @Last Modified by:   admin
+* @Last Modified time: 2017-11-13 23:19:21
 */
 require('./index.css');
 var _mm = require('util/mm.js');
@@ -23,7 +23,7 @@ var nav = {
 		});
 		//注册点击事件
 		$(".js-register").click(function(){
-			window.location.href = './register.html';
+			window.location.href = './user-register.html';
 		});
 		//退出点击事件
 		$(".js-logout").click(function(){
