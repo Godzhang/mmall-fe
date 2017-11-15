@@ -2,7 +2,7 @@
 * @Author: admin
 * @Date:   2017-11-13 21:35:47
 * @Last Modified by:   admin
-* @Last Modified time: 2017-11-13 23:16:36
+* @Last Modified time: 2017-11-15 21:48:59
 */
 require('./index.css');
 require('page/common/nav-simple/index.js');
@@ -58,7 +58,7 @@ var page = {
             phone: $.trim($("#phone").val()),
             email: $.trim($("#email").val()),
             question: $.trim($("#question").val()),
-            answer: $.trim($("#answer").val()),
+            answer: $.trim($("#answer").val())
         },
         //表单验证结果
         validateResult = this.formValidate(formData);
@@ -76,7 +76,6 @@ var page = {
             //错误提示
             formError.show(validateResult.msg);
         }
-
     },
     //表单字段的验证
     formValidate: function(formData){
