@@ -2,7 +2,7 @@
 * @Author: admin
 * @Date:   2017-11-15 20:46:11
 * @Last Modified by:   admin
-* @Last Modified time: 2017-11-15 21:22:19
+* @Last Modified time: 2017-11-15 22:44:17
 */
 require('./index.css');
 require('page/common/nav/index.js');
@@ -18,7 +18,7 @@ var page = {
     },
     onLoad: function(){
         //初始化左侧菜单
-        navSide.init({name: 'order-list'});
+        navSide.init({name: 'user-center'});
         //加载用户信息
         this.loadUserInfo();
     },
