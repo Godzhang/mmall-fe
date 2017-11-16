@@ -1,0 +1,10 @@
+/*
+* @Author: admin
+* @Date:   2017-11-16 22:06:44
+* @Last Modified by:   admin
+* @Last Modified time: 2017-11-16 22:09:14
+*/
+/* banner */
+.banner { position: relative; overflow: auto; }
+.banner li { list-style: none; }
+.banner ul li { float: left; }

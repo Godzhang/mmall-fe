@@ -1,14 +1,15 @@
 /*
 * @Author: p
 * @Date:   2017-11-10 14:39:23
-* @Last Modified by:   p
-* @Last Modified time: 2017-11-10 15:53:48
+* @Last Modified by:   admin
+* @Last Modified time: 2017-11-16 23:22:23
 */
 require('./index.css');
 var _mm = require('util/mm.js');
 //通用页面头部
 var header = {
 	init: function(){
+		this.onLoad();
 		this.bindEvent();
 	},
 	onLoad: function(){
