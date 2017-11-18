@@ -2,7 +2,7 @@
 * @Author: admin
 * @Date:   2017-11-16 23:18:31
 * @Last Modified by:   admin
-* @Last Modified time: 2017-11-16 23:46:12
+* @Last Modified time: 2017-11-18 16:51:16
 */
 var _mm = require('util/mm.js');
 
@@ -12,6 +12,17 @@ var _product = {
         _mm.request({
             url: _mm.getServerUrl('/product/list.do'),
             data: listParam,
+            success: resolve,
+            error: reject
+        });
+    },
+    //获取商品详细信息
+    getProductDetail: function(productId, resolve, reject){
+        _mm.request({
+            url: _mm.getServerUrl('/product/detail.do'),
+            data: {
+                productId: productId
+            },
             success: resolve,
             error: reject
         });

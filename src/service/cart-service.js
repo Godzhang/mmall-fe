@@ -1,8 +1,8 @@
 /*
 * @Author: p
 * @Date:   2017-11-10 12:21:04
-* @Last Modified by:   p
-* @Last Modified time: 2017-11-10 12:23:42
+* @Last Modified by:   admin
+* @Last Modified time: 2017-11-18 17:33:13
 */
 
 var _mm = require('util/mm.js');
@@ -15,7 +15,16 @@ var _cart = {
 			success: resolve,
 			error: reject
 		});
-	}
+	},
+    //添加到购物车
+    addToCart: function(productInfo, resolve, reject){
+        _mm.request({
+            url: _mm.getServerUrl('/cart/add.do'),
+            data: productInfo,
+            success: resolve,
+            error: reject
+        });
+    }
 }
 
 module.exports = _cart;
