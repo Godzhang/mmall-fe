@@ -2,7 +2,7 @@
 * @Author: admin
 * @Date:   2017-11-19 10:36:59
 * @Last Modified by:   admin
-* @Last Modified time: 2017-11-19 13:10:35
+* @Last Modified time: 2017-11-19 15:01:35
 */
 require('./index.css');
 require('page/common/header/index.js');
@@ -139,7 +139,7 @@ var page = {
         $(document).on('click', '.btn-submit', function(){
             //总价大于0，进行提交
             if(_this.data.cartInfo && _this.data.cartInfo.cartTotalPrice > 0){
-                window.location.href = './confirm.html';
+                window.location.href = './order-confirm.html';
             }else{
                 _mm.errorTips('请选择商品后再提交');
             }

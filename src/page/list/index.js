@@ -2,7 +2,7 @@
 * @Author: admin
 * @Date:   2017-11-16 22:31:47
 * @Last Modified by:   admin
-* @Last Modified time: 2017-11-18 14:24:43
+* @Last Modified time: 2017-11-21 23:19:09
 */
 require('./index.css');
 require('page/common/nav/index.js');
@@ -89,6 +89,7 @@ var page = {
             _mm.errorTips(errMsg);
         });
     },
+    //加载分页信息
     loadPagination: function(pageInfo){
         var _this = this;
         this.pagination ? '' : (this.pagination = new Pagination());
