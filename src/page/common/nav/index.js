@@ -2,7 +2,7 @@
 * @Author: admin
 * @Date:   2017-11-09 23:28:29
 * @Last Modified by:   admin
-* @Last Modified time: 2017-11-13 23:19:21
+* @Last Modified time: 2017-11-23 23:15:46
 */
 require('./index.css');
 var _mm = require('util/mm.js');
@@ -19,7 +19,7 @@ var nav = {
 	bindEvent: function(){
 		//登录点击事件
 		$(".js-login").click(function(){
-			_mm.doLogin();
+			_mm.doLoginIn();
 		});
 		//注册点击事件
 		$(".js-register").click(function(){
